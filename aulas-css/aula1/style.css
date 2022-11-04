@@ -1,0 +1,42 @@
+html{
+    color:#fa1a8e;
+    background-color: lightsalmon;
+    background-image: url(./light-pink-pattern.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;    
+}
+h1, h2 {
+    text-align: center;
+}
+h2#titulo-primeira-aula{
+    text-decoration: underline;
+    letter-spacing: 0.4rem;
+}
+main{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 500;
+    font-variant: normal;
+    font-size: 0.85rem;
+}
+main p{
+    text-indent: 1rem;
+    text-align: start;
+}
+p{
+    text-transform: capitalize;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: lightcoral;
+}
+a:hover{
+    color: orange;
+}
+@font-face{
+    font-family: cutesmile;
+    src: url('CuteSmileDemoRegular.ttf');
+}
