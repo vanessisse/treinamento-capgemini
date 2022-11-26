@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <title>JQuery - Alterar atributos</title>
+
+    <!-- JQuery -->
+    <script src="jquery-3.6.1.min.js"></script>
+
+    <!-- Script -->
+    <script>
+
+        // Ao carregar o documento
+        $(document).ready(function(){
+
+            // Selecionar e alterar o elemento img
+            $("img").attr("width", "700");
+            $("img").attr("title", "Alterando title via JQuery");
+
+        });
+
+    </script>
+
+</head>
+
+<body>
+
+    <img src="logo_proway.png" width="100px" title="ProWay">
+    
+</body>
+
+</html>
