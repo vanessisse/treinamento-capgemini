@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Evento de teclado</title>
+
+    <!-- JS -->
+    <script>
+
+        // Função
+        function exibir(){
+
+            // Obter o valor do campo texto
+            var campo = document.getElementById("campo").value;
+
+            // Exibir o conteúdo
+            alert(campo);
+
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="campo" onkeyup="exibir()">
+</body>
+</html>

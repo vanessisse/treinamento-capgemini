@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Seletor HTML</title>
+
+    <!-- JS -->
+    <script>
+
+        // Função
+        function acao(){
+
+            // Variável
+            var texto = document.getElementsByTagName("h1")[0];
+
+            // Exibir o conteúdo de H1
+            alert(texto.innerHTML);
+
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="acao()">Selecionar</button>
+
+    <h1>Maçã</h1>
+    <h1>Manga</h1>
+    <h1>Laranja</h1>
+
+</body>
+</html>

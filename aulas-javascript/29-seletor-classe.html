@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Seletor CLASSE</title>
+
+    <!-- JS -->
+    <script>
+
+        // Função
+        function exibirTexto(){
+
+            // Variável
+            var campo = document.getElementsByClassName("texto")[1];
+
+            // Exibir o conteúdo
+            alert(campo.innerHTML);
+        }
+    </script>
+</head>
+<body>
+
+    <button onclick="exibirTexto()">Clique aqui</button> 
+
+    <h1 class="texto">Título em H1</h1>
+    <h2 class="texto">Título em H2</h2>
+    <p class="texto">Parágrafo</p>
+
+</body>
+</html>

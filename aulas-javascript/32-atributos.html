@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript - Atributos</title>
+
+    <!-- JS -->
+    <script>
+
+        // Função
+        function alterarLink(){
+
+            // Obter o link
+            var link = document.getElementsByTagName("a")[0];
+
+            // Alterar o link
+            link.href = "https://www.google.com";
+
+        }
+        
+    </script>
+</head>
+<body>
+    
+    <a href="https://www.capgemini.com/br-pt/">Clique aqui</a>
+    <button onclick="alterarLink()">Alterar link</button>
+
+</body>
+</html>
