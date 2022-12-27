@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color:#F7358D;
+}
+
+button {
+    padding: 10px;
+    background-color: #F7358D;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+button:hover {
+    filter: brightness(1.4);
+}
